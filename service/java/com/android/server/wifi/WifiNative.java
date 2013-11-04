@@ -1536,6 +1536,8 @@ public class WifiNative {
         }
     }
 
+    public native static boolean setMode(int mode);
+
     /* WIFI HAL support */
 
     // HAL command ids
