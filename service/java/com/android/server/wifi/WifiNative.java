@@ -1517,7 +1517,6 @@ public class WifiNative {
         return doBooleanCommand("NFC_REPORT_HANDOVER RESP P2P " + requestMessage + " 00");
     }
 
-    public native static boolean setMode(int mode);
 
     /* kernel logging support */
     private static native byte[] readKernelLogNative();
